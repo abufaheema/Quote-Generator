@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd0a8;
+    color: #333;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+#quoteBtn{
+    border: none;
+    color: white;
+    background-color: #d89156;
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#quoteBtn:hover{
+    color: #ffd000;
+}
+
+blockquote{
+    background-color: white;
+    border-left: 10px solid #fcdbbf;
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+
+#quoteAuthor{
+color: #ffd000;
+}
